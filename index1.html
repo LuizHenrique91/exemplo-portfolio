@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <script src="javascript.js"></script>
+    
+</head>
+    <body>
+        <header>
+            <nav class="barra_nav">
+                <div class="texto_portfolio">
+                    <h3>Portfólio</h3>
+                </div>
+    
+                <ul class="menu" id="menu_top">
+                    <li><a href="#rolagem1">Sobre mim</a></li>
+                    <li><a href="#rolagem2">Projetos</a></li>
+                    <li><a href="#rolagem3">Serviços</a></li>
+                    <li><a href="#rolagem4">Minhas Skills</a></li>
+                </ul>
+                <div class="menu_hamburguer_mobile">
+                    <label for="check">
+                        <input type="checkbox" id="check"/>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                </div>
+            </nav>
+        </header>
+
+        <main class="container">
+            <section class="apresentacao_nome">
+                <div>
+                    <h3 class="texto_nome">Olá, eu sou o</h3>
+                    <h3 class="texto_nome">Luiz Henrique :)</h3>
+                    <p>Desenvolverdor Front-End & Back-End</p>
+                    <button onclick="document.location = '#rolagem4'">Entrar em Contato</button>
+                    
+                </div>
+                <picture class="imagem">
+                    <img src="img/undraw_Lost_online_re_upmy 1.svg" alt="">
+                </picture>
+            </section>
+
+            <section id="rolagem1" class="texto_sobre">
+                <h4>Sobre mim</h4>
+                <p>
+                    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+                    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+                    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+                </p>
+            </section>
+
+            <section class="dados_pessoais">
+                <div>
+                    <img src="img/smile.svg" alt="">
+                    <p>Meu Nome</p>
+                    <p>Luiz Henrique</p>
+                </div>
+
+                <div>
+                    <img src="img/mail.svg" alt="">
+                    <p>E-mail</p>
+                    <p>seuemail@hotmail.com</p>
+                </div>
+                
+                <div>
+                    <img src="img/instagram.svg" alt="">
+                    <p>Instagram</p>
+                    <p>@testeinstagram</p>
+                </div>
+            </section>
+
+            <section id="rolagem2" class="projetos">
+                <h4>Projetos</h4>
+                <div class="lista_projetos">
+                    <figure>
+                        <img src="img/Jogo da memória.jpg" alt="">
+                        <figcaption>Jogo da Memória</figcaption>
+                        <figcaption>Tecnologias: HTML, CSS e JS</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="img/Jogo da memória.jpg" alt="">
+                        <figcaption>Automação com Selenium</figcaption>
+                        <figcaption>Tecnologias: Java e Framework Selenium</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="img/Jogo da memória.jpg" alt="">
+                        <figcaption>Projeto Alura: Editor de Código</figcaption>
+                        <figcaption>Tecnologias: HTML, CSS e JS</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="img/Jogo da memória.jpg" alt="">
+                        <figcaption>Tela Login</figcaption>
+                        <figcaption>Tecnologias: HTML, CSS</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="img/Jogo da memória.jpg" alt="">
+                        <figcaption>Portfólio Rachi</figcaption>
+                        <figcaption>Tecnologias: HTML, CSS</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="img/Jogo da memória.jpg" alt="">
+                        <figcaption>Projeto Alura: Editor de Código</figcaption>
+                        <figcaption>Tecnologias: HTML, CSS e JS</figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <section id="rolagem3" class="servicos">
+                <h4>Serviços</h4>
+                <ul>
+                    <li>
+                        <img src="img/code.svg" alt="">
+                        <p>Criação de Sites</p>
+                    </li>
+                    <li>
+                        <img src="img/code.svg" alt="">
+                        <p>Desenvolvimento de Sistema</p>
+                    </li>
+                    <li>
+                        <img src="img/smartphone.svg" alt="">
+                        <p>Sites Responsivos</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="rolagem4" class="minhas_skills">
+                <h4>Minhas Skills</h4>
+                <ul>
+                    <li><img src="img/Vector.svg" alt=""></li>
+                    <li><img src="img/fontisto_css3.svg" alt=""></li>
+                    <li><img src="img/003-java.png" alt="" style="border: 20px solid #212121;"></li>
+                </ul>
+            </section>
+
+            <footer class="contato" id="formulario_contato">
+                <h4>Contato</h4>
+                <form action="">
+                    <label for="nome">Nome / Empresa</label>
+                    <input type="text" id="nome" required placeholder="Seu Nome">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" placeholder="(11) 9 9999-9999">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" required placeholder="seuemail@email.com">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="" id="mensagem"></textarea>
+                    <button id="enviar" onclick="document.location = '#formulario_contato'">Enviar</button>
+                </form>
+            </footer>
+        </main>
+    </body>
+</html>
